@@ -1,2 +1,12 @@
 /**/
 
+#titulo{
+    background-color: black;
+    color: black; 
+}
+
+#tituloLogin{
+    text-align: center;
+    font-family: arial;
+    font-size: 36px;
+}
