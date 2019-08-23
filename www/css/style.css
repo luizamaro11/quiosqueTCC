@@ -1,9 +1,14 @@
 /**/
 
-#titulo{
-    background-color: black;
-    color: black; 
+body{
+    background-color: gray;
 }
+
+container-fluid{
+    background-color: black;
+    width: 100vw;
+}
+
 
 #tituloLogin{
     text-align: center;
@@ -17,13 +22,29 @@
     font-size: 36px;
 }
 
+#tituloMenu{
+    text-align: center;
+    font-family: arial;
+    font-size: 36px;
+}
+
 #user{
     text-align: center;
-    width: 340px;
+    width: 380px;
     height: 80px;
-    margin-top:-80px;
     color: white;
 }
 
+#icone{
+    text-align: center;
+    width: 90px;
+    height: 80px;
+    color: white;
+}
+
+.linha{
+    text-align: center;
+    margin-top: 10px;
+}
 
 
