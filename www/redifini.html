@@ -16,55 +16,50 @@
     <link rel="stylesheet" href="css/style.css">
 
     <script>
-        
+      
     </script>
 </head>
 <body>
-    <div class="container">
+     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-              <a href="menu.html"><span class="fa-stack fa-4x">
-                <i class="far fa-hand-point-left"></i>
-             </span></a>
-            <span class="fa-stack fa-4x" id="icone"> 
-                <i class="fas fa-user-circle"></i> 
-            </span>
-          </div>
-        </div> 
-        
-        <div class="row">
-            <div class="col-xs-12">
-                <h3>Nome:<label for="">Funcionario</label>
-                </h3>
-            </div>
-        </div>
-        <hr>
-
-         
-        <div class="row">
-            <div class="col-xs-12">
-                <h3>E-mail:<label for="">felipedoido@gmail.com</label></h3></h3>
-            </div>
-        </div>
-        <hr>
-
-         
-        <div class="row">
-            <div class="col-xs-12">
-                <h3>Telefone:<label for="">(XX) XXXXX-XXXX</label></h3>
-            </div>
-        </div>
-        <hr>
-
-        <div class="row">
-            <div class="col-xs-6">
-                <button class="btn btn-block btn-light">Deslogar</button>
-            </div>
-            <div class="col-xs-6">
-                <a href="redifini.html"><button class="btn btn-block btn-light">Redifinição</button></a>
+              <span class="fa-stack fa-4x" id="user"> 
+                 <i class="fas fa-user-circle"></i> 
+              </span>
+                <h1 id="tituloRedifinicao">Redifinição</h1>
             </div>
         </div>
 
-     </div> 
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="form-group">
+                  <input type="password" class="form-control" id="antSenha" placeholder="Digite sua antiga senha">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="form-group">
+                   <input type="password" class="form-control" id="novSenha" placeholder="Digite sua nova senha">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="form-group">
+                  <input type="password" class="form-control" id="confSenha" placeholder="Digite novamente sua senha nova">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <button type="submit" class="btn btn-block btn-light" value="Salvar">Salvar alterações</button>
+            </div>
+        </div>
+
+    </div>  
 </body>
 </html>
