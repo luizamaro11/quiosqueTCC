@@ -1,12 +1,83 @@
 /**/
 
-#titulo{
-    background-color: black;
-    color: black; 
+body{
+    background-color: gray;
 }
+
+container-fluid{
+    background-color: black;
+    width: 100vw;
+}
+
 
 #tituloLogin{
     text-align: center;
     font-family: arial;
     font-size: 36px;
 }
+
+#tituloCadastrar{
+    text-align: center;
+    font-family: arial;
+    font-size: 36px;
+}
+
+#tituloMenu{
+    text-align: center;
+    font-family: arial;
+    font-size: 36px;
+}
+
+#tituloRedifinicao{
+    text-align: center;
+    font-family: arial;
+    font-size: 36px;
+}
+
+#tituloMesa{
+    text-align: center;
+    font-family: arial;
+    font-size: 36px;
+}
+
+#user{
+    text-align: center;
+    width: 385px;
+    height: 80px;
+    color: white;
+}
+
+#icone{
+    text-align: center;
+    margin-top: -40px;
+    margin-right: 100px;
+    width: 70px;
+    height: 80px;
+    color: white;
+}
+
+label {
+  cursor: default;  
+}
+
+#remover{
+    margin-top: 20px;
+}
+
+hr{
+  display: block;
+  margin-top: -50px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  background-color: black;
+}
+
+.linha{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
