@@ -1,21 +1,26 @@
 /**/
 
 body{
-    background-color: gray;
+    background-image: url(../imagens/fundo.jpg);
+    background-size: 110%;
+    
 }
-
-container-fluid{
-    background-color: black;
-    width: 100vw;
-}
-
-
 #tituloLogin{
     text-align: center;
     font-family: arial;
     font-size: 36px;
+    color: white;
 }
-
+.linhaUsuario{
+     margin-top: 50%;
+}
+.linhaSenha{
+     margin-top: 5px;
+}
+#logar{
+     margin-top: 5px;
+     color: gray;
+}
 #tituloCadastrar{
     text-align: center;
     font-family: arial;
