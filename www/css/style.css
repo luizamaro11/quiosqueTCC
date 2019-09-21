@@ -3,7 +3,6 @@
 body{
     background-image: url(../imagens/fundo.jpg);
     background-size: 110%;
-    
 }
 #tituloLogin{
     text-align: center;
@@ -12,14 +11,14 @@ body{
     color: white;
 }
 .linhaUsuario{
-     margin-top: 50%;
+    margin-top: 50%;
 }
 .linhaSenha{
-     margin-top: 5px;
+    margin-top: 5px;
 }
 #logar{
-     margin-top: 5px;
-     color: gray;
+    margin-top: 5px;
+    color: gray;
 }
 #tituloCadastrar{
     text-align: center;
@@ -62,7 +61,7 @@ body{
 }
 
 label {
-  cursor: default;  
+    cursor: default;  
 }
 
 #remover{
@@ -70,19 +69,28 @@ label {
 }
 
 hr{
-  display: block;
-  margin-top: -50px;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-  background-color: black;
+    display: block;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    background-color: black;
 }
 
 .linha{
     text-align: center;
     margin-top: 10px;
+}
+
+table{
+    color: white;
+}
+
+#iconeAdicionar{
+    margin-top: 80%;
+    margin-left: 270px;
 }
 
 
