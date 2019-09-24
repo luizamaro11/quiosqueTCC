@@ -1,13 +1,13 @@
 /**/
 
 body{
-    background-image: url(../imagens/fundo.jpg);
+    background-color: #ffe082;
     background-size: 110%;
 }
 #tituloLogin{
     text-align: center;
     font-family: arial;
-    font-size: 36px;
+    font-size: 30px;
     color: white;
 }
 .linhaUsuario{
@@ -23,25 +23,27 @@ body{
 #tituloCadastrar{
     text-align: center;
     font-family: arial;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 #tituloMenu{
-    text-align: center;
+    margin-top: 13px;
+    text-align: right;
     font-family: arial;
-    font-size: 36px;
+    font-size: 30px;
+    color: white;
 }
 
 #tituloRedifinicao{
     text-align: center;
     font-family: arial;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 #tituloMesa{
     text-align: center;
     font-family: arial;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 #user{
@@ -93,4 +95,32 @@ table{
     margin-left: 270px;
 }
 
+#iconetrd{
+    margin-top: 17px;
+    float: right;
+    color: white;
+}
 
+#btnComandas{
+    height: 170px;
+    margin-top: 15%;
+    font-size: 25px;
+    background-color: white;;
+    color: black;
+}
+#btnPedidos{
+    height: 170px;
+    margin-top: 15%;
+    font-size: 25px;
+    background-color: white;
+    color: black
+}
+.titulo{
+    background-color: #ffc107;
+}
+
+#iconeVoltar{
+    margin-top: 17px;
+    float: left;
+    color: white;
+}

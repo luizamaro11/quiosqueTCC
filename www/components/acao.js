@@ -1,6 +1,5 @@
 /**/
 $(document).ready(function(){
-
     /*autenticação do login para entrar apenas se o usuario e senha for admin e exibir mensagem caso não for*/ 
     $(document).on("click", "#logar", function(){
         var usuario = $("#usuario").val();

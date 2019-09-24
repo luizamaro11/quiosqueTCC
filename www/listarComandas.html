@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
-    
+
     <script src="components/loader.js"></script>
     <script src="components/jquery-3.3.1.min.js"></script>
     <script src="https://kit.fontawesome.com/954fb3578e.js"></script>
@@ -14,51 +14,57 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
     <div class="container">
-         <div class="row titulo">
+        <div class="row titulo">
              <div class="col-xs-4">
                 <a href="menu.html"><i class="fas fa-arrow-left fa-2x" id="iconeVoltar"></i></a>
             </div>
             <div class="col-xs-4">
-                <h1 id="tituloMenu">Mesas</h1>
+                <h1 id="tituloMenu">Lista de Pedidos</h1>
             </div>           
             <div class="col-xs-4">
                 <a href="alterar.html"><i class="fa fa-user-circle-o fa-2x" aria-hidden="true" id="iconetrd"></i></a>
             </div>
         </div>
-        <br>
-        <br>
-        <br>    
         <div class="row">
             <div class="col-xs-6"> 
-                <p style="color:green;">Mesa 1</p>
+                <p>Pedido 1</p>
             </div>
             <div class="col-xs-3">
-                <a href="listarComandas.html"><button class="btn btn-block btn btn-success" id="abrir">Entrar</button></a>
+                <a href="pedido.html"><button class="btn btn-block btn btn-success" id="abrir">Abrir</button></a>
+            </div>
+            <div class="col-xs-3">
+                <button class="btn btn-block btn btn-danger" id="fechar">Fechar</button>
             </div>
         </div>
         <br/>
         <div class="row">
             <div class="col-xs-6"> 
-                <p style="color:red;">Mesa 2</p>
+                <p>Pedido 2</p>
             </div>
             <div class="col-xs-3">
-                <a href="listarComandas.html"><button class="btn btn-block btn btn-success" id="abrir">Entrar</button></a>
+                <a href="pedido.html"><button class="btn btn-block btn btn-success" id="abrir">Abrir</button></a>
+            </div>
+            <div class="col-xs-3">
+                <button class="btn btn-block btn btn-danger" id="fechar">Fechar</button>
             </div>
         </div>
         <hr/>
         <br/><br/>
         <div class="row">
             <div class="col-xs-6"> 
-                <p>Mesa 3</p>
+                <p>Pedido 3</p>
             </div>
             <div class="col-xs-3">
-                <a href="listarComandas.html"><button class="btn btn-block btn btn-success" id="abrir">Entrar</button></a>
+                <a href="pedido.html"><button class="btn btn-block btn btn-success" id="abrir">Abrir</button></a>
+            </div>
+            <div class="col-xs-3">
+                <button class="btn btn-block btn btn-danger" id="fechar">Fechar</button>
             </div>
         </div>
-        <hr>
     </div>
 </body>
 </html>
