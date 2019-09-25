@@ -17,105 +17,64 @@
 </head>
 <body>
     <div class="container">
-        <div class="row header">
-            <div class="col-xs-12">
-                <a href="alterar.html"><span class="fa-stack fa-4x" id="user"> 
-                    <i class="fas fa-user-circle">Usuario</i><br> 
-                </span></a>
-                <h1 id="tituloMesa">Pedidos</h1>
+        <div class="row titulo">
+             <div class="col-xs-2">
+                <a href="listarComandas.html"><i class="fas fa-arrow-left fa-2x" id="iconeVoltar"></i></a>
+            </div>
+            <div class="col-xs-8">
+                <h1 id="tituloUsuario">Pedidos</h1>
+            </div>           
+            <div class="col-xs-2">
+                <a href="alterar.html"><i class="fa fa-user-circle-o fa-2x" aria-hidden="true" id="iconetrd"></i></a>
             </div>
         </div>
-        <hr/>
-        <div class="row body">
-            <div class="col-xs-6">
-                <h2>Mesa 1</h2>
-            </div>
-        </div>
+          <div class="row body">
+               <div class="col-xs-6">
+                    <h2>Mesa 1</h2>
+               </div>
+          </div>
 
-        <!-- tabela com os pedidos dos produtos listados -->
-        <div class="row">
-            <div class="col-xs-12">
-                <table class="table">            
-                    <thead>
-                        <tr>
-                            <th>Produto</th>
-                            <th>Quantidade</th>
-                            <th>Tipo</th>
-                            <th>Valor</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>coca</td>
-                            <td>2</td>
-                            <td>litros</td>
-                            <td>$R10,00</td>
-                        </tr>
-                        <tr>
-                            <td>fritas</td>
-                            <td>1</td>
-                            <td>porção</td>
-                            <td>$R35,00</td>
-                        </tr>
-                        <tr>
-                            <td>água</td>
-                            <td>1</td>
-                            <td>unidade</td>
-                            <td>$R3,00</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+          <!-- tabela com os pedidos dos produtos listados -->
+          <div class="row">
+               <div class="col-xs-12">
+                    <table class="table">            
+                         <thead>
+                         <tr>
+                              <th>Produto</th>
+                              <th>Quantidade</th>
+                              <th>Tipo</th>
+                              <th>Valor</th>
+                         </tr>
+                         </thead>
+                         <tbody>
+                         <tr>
+                              <td>coca</td>
+                              <td>2</td>
+                              <td>litros</td>
+                              <td>$R10,00</td>
+                         </tr>
+                         <tr>
+                              <td>fritas</td>
+                              <td>1</td>
+                              <td>porção</td>
+                              <td>$R35,00</td>
+                         </tr>
+                         <tr>
+                              <td>água</td>
+                              <td>1</td>
+                              <td>unidade</td>
+                              <td>$R3,00</td>
+                         </tr>
+                         </tbody>
+                    </table>
+               </div>
+          </div>
 
-        <div class="row">
-            <div class="col-xs-6">
-                <a href="#" data-toggle="modal" data-target="#myModal"><img id="iconeAdicionar" src="imagens/iconsAdicionar.png" alt=""/></a>
-            </div>
-        </div>
-
-        <!-- Modal -->
-        <div id="myModal" class="modal" role="dialog">
-            <div class="modal-dialog">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">
-                            <span>x<span>
-                        </button>
-                        <h3 class="modal-title">Adicionar Pedido</h3>
-                    </div>
-                    <div class="modal-body">
-                        <h4>Mesa 1</h4>
-
-                        <div class="row">
-                            <div class="form-group">
-                                <div class="col-xs-6">
-                                    <input class="form-control" type="text" placeholder="nome do produto"/>
-                                </div>
-                                <div class="col-xs-6">
-                                    <input class="form-control" type="number" placeholder="Quantidade do produto"/>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="form-group">
-                                <div class="col-xs-6">
-                                    <input class="form-control" type="text" placeholder="tipo do produto"/>
-                                </div>
-                                <div class="col-xs-6">
-                                    <input class="form-control" type="number" placeholder="valor do produto"/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+          <div class="row add">
+               <div class="col-xs-6">
+                    <a href="adicionarProdutos.html"><img id="iconeAdicionar" src="imagens/iconsAdicionar.png" alt=""/></a>
+               </div>
+          </div>
     </div>
 </body>
 </html>
