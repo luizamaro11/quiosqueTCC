@@ -104,16 +104,17 @@ table{
 #btnComandas{
     height: 170px;
     margin-top: 15%;
-    font-size: 25px;
-    background-color: white;;
+    font-size: 30px;
     color: black;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 #btnPedidos{
     height: 170px;
     margin-top: 15%;
     font-size: 25px;
     background-color: white;
-    color: black
+    color: black;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 .titulo{
     background-color: #ffc107;
@@ -122,5 +123,51 @@ table{
 #iconeVoltar{
     margin-top: 17px;
     float: left;
+    color: white;
+}
+#entrar{
+     float: right;
+}
+#tituloPedidos{
+     margin-top: 13px;
+    font-family: arial;
+    font-size: 28px;
+    color: white;
+}
+#tituloUsuario{
+    margin-top: 13px;
+    font-family: arial;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+.table{
+     color: black;
+     font-size: 17px;
+}
+.add{
+     position: absolute;
+     bottom: 20px;
+     right: 20px;
+}
+#tituloProdutos{
+    margin-top: 13px;
+    font-family: arial;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+}
+#tituloPendentes{
+    margin-top: 15px;
+    font-family: arial;
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+#tituloSenha{
+    margin-top: 15px;
+    font-family: arial;
+    text-align: left;
+    font-size: 25px;
     color: white;
 }
